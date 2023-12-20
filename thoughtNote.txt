@@ -1,0 +1,20 @@
+The Project has been made from scratch (except the styling, which has been received from Udemy).
+**********
+
+Project Name: Keeper App
+Project description: It is a copy of google note app which keeps the record of the user's notes
+---------------------------------------------------------------------------------------------
+
+♦ Imp. points
+
+• Static files like "index.html" and "sytles.css" go into "puclic" folder in the root of the project.
+• There are two more folders in the root, which are "src" folder and "node_modules" folder
+• "index.js" file and the other dynamic files such as custome components go inside "src" folder.
+• HTML like syntax written inside the .render() method is JSX, which comes from imported "react" object.
+• .render() method comes from imported "react-dom" object.    
+
+-------------------------------------------------------------------------------------------------
+♦ vs code extensions used:
+  1. "npm-check-updates" : It modifies the the project's pakage.json file and installs the latest 
+      dependencies rather the given in the file to avoid any compatibility issues
+  2. vsCode icom : It renders different types of files with different icons.
