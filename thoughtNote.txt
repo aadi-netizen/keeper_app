@@ -14,6 +14,15 @@ Project description: It is a copy of google note app which keeps the record of t
 • .render() method comes from imported "react-dom" object.    
 
 -------------------------------------------------------------------------------------------------
+♦ Dynamin rendering of note components
+
+• instead of writing a single component inside "render" functioin of App.jsx include a javaScript 
+expression witch is returning multiple Note components with properties tapping relevent data 
+of the "notes array" when the callback fxn of the array(note.js).map(item) function iterates itself through each item of the array.
+
+• Step 2: Now pass those properties to the <Note /> component in component's page using React prop.
+
+-------------------------------------------------------------------------------------------
 ♦ vs code extensions used:
   1. "npm-check-updates" : It modifies the the project's pakage.json file and installs the latest 
       dependencies rather the given in the file to avoid any compatibility issues
